@@ -35,8 +35,7 @@ const CarrosContainer = () => {
     });
   };
 
-  const handleEdit = ({ target }, id) => {
-    const index = carros.map((el) => el.id).indexOf(id);
+  const handleEdit = ({ target }, index) => {
     const newCarros = [...carros];
     newCarros[index][target.name] = target.value;
     setCarros(newCarros);

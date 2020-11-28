@@ -26,14 +26,14 @@ const Carro = ({
               <input
                 name="modelo"
                 value={carro.modelo}
-                onChange={(event) => onEdit(event, carro.id)}
+                onChange={(event) => onEdit(event, key)}
               />
               <br />
               <span>Marca: </span>
               <input
                 name="marca"
                 value={carro.marca}
-                onChange={(event) => onEdit(event, carro.id)}
+                onChange={(event) => onEdit(event, key)}
               />
               <br />
               <button onClick={() => onUpdate(carro)}>Alterar</button>
