@@ -4,7 +4,7 @@ Este projeto foi criado usando [Create React App](https://github.com/facebook/cr
 
 ## Scripts disponíveis
 
-Para executar esse projeto vc deve rodar:
+Para executar esse projeto você deverá executar:
 
 ### `npm start`
 
@@ -16,4 +16,4 @@ Você também verá quaisquer erros de lint no console.
 
 ### `npm run mock-server`
 
-Executa um servidor [json-server](https://github.com/typicode/json-server) baseados em Node.\
+Executa um servidor [json-server](https://github.com/typicode/json-server) baseados em Node.
