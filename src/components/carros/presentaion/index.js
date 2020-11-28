@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 
 const Carro = ({
   carros = [],
@@ -44,6 +45,19 @@ const Carro = ({
         })}
     </>
   );
+};
+
+Carro.propTypes = {
+  carros: PropTypes.arrayOf({
+    modelo: PropTypes.string,
+    marca: PropTypes.string,
+    id: PropTypes.number,
+  }),
+  onChange: PropTypes.func,
+  onSubmit: PropTypes.func,
+  onEdit: PropTypes.func,
+  onUpdate: PropTypes.func,
+  onDelete: PropTypes.func,
 };
 
 export default Carro;
