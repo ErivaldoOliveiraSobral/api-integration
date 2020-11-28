@@ -1,0 +1,1 @@
+export { axiosGateway } from "./axiosGateway";
